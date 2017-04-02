@@ -40,7 +40,7 @@ void loop()
 
   Serial.println(sensorValue);
 
-  float paso =  0.00488;
+  float paso =  0.00488;//1024  representar 5 vol 5/1024 = 0.00488
 
   float svc = (sensorValue * 0.00488) * 10;
 
